@@ -1,13 +1,14 @@
 ---
-title: Waste Classifier
-emoji: 🚀
-colorFrom: red
-colorTo: yellow
+title: Waste Classifier (Gradio)
+emoji: ♻️
+colorFrom: green
+colorTo: blue
 sdk: gradio
-sdk_version: 5.44.1
 app_file: app.py
+python_version: 3.10
 pinned: false
-short_description: Image Classification
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+# Waste Classifier
+
+Upload an image or use your camera. The app shows per-model predictions, the most confident model, VGG16 top-3, and a Performance tab.
